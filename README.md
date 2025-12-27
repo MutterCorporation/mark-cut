@@ -1,228 +1,127 @@
-# 🎬 MARK-CUT Frontend
+# 🎬 MarkCut Frontend
 
-Landing page moderna com design **Glass Morphism** para o sistema Mark-Cut.
+Modern landing page featuring a **Glass Morphism** design for the MarkCut system.
 
-## ✨ Características
+## ✨ Features
 
-- **🎨 Design Glass Morphism** com efeitos visuais modernos
-- **🔤 Tipografia em CAIXA ALTA** para impacto visual
-- **🎨 Paleta de Cores**: Petróleo, Branco e Vermelho
-- **📱 Totalmente Responsivo** para todos dispositivos
-- **⚡ Animações Suaves** com Framer Motion
-- **📧 Captura de Email** para lista de lançamento
-- **🚀 Performance Otimizada** com lazy loading
+- **🎨 Glass Morphism Design** with modern visual effects
+- **🔤 Uppercase Typography** for visual impact
+- **🎨 Color Palette**: Petroleum, White, and Red
+- **📱 Fully Responsive** for all devices
+- **⚡ Smooth Animations** with Framer Motion
+- **📧 Email Capture** for launch list
+- **🚀 Optimized Performance** with lazy loading
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
-- **React 18** - Framework principal
-- **Tailwind CSS** - Estilização e design system
-- **Framer Motion** - Animações e transições
-- **React Hook Form** - Gerenciamento de formulários
-- **React Hot Toast** - Notificações elegantes
-- **Lucide React** - Ícones modernos
+- **React 18** - Main framework
+- **Tailwind CSS** - Styling and design system
+- **Framer Motion** - Animations and transitions
+- **React Hook Form** - Form management
+- **React Hot Toast** - Elegant notifications
+- **Lucide React** - Modern icons
 
-## 🚀 Como Executar
+## 🚀 How to Run
 
-### Pré-requisitos
+### Prerequisites
 - Node.js 16+
-- npm ou yarn
+- npm or yarn
 
-### Instalação
-```bash
-# Clone o repositório
+### Installation
+bash
+# Clone the repository
 git clone <repo-url>
 
-# Entre na pasta do frontend
+# Enter the frontend folder
 cd frontend
 
-# Instale as dependências
+# Install dependencies
 npm install
 
-# Inicie o servidor de desenvolvimento
-npm start
-```
-
-### Scripts Disponíveis
-
-```bash
-# Servidor de desenvolvimento
+# Start the development server
 npm start
 
-# Build para produção
+
+### Available Scripts
+
+bash
+# Development server
+npm start
+
+# Production build
 npm run build
 
-# Executar testes
+# Run tests
 npm test
 
-# Ejetar configurações (irreversível)
+# Eject configuration (irreversible)
 npm run eject
-```
 
-## 🎨 Estrutura de Design
 
-### Cores Principais
-- **Petróleo**: `#0f172a` (dark-petroleum)
-- **Petróleo Claro**: `#1e293b` (light-petroleum)
-- **Vermelho Accent**: `#ef4444` (accent-red-500)
-- **Branco**: `#ffffff`
+## 🎨 Design Structure
 
-### Classes Glass Morphism
-- `.glass` - Efeito glass básico
-- `.glass-strong` - Efeito glass intensificado
-- `.glass-red` - Variação com borda vermelha
-- `.glass-button` - Botões com efeito glass
+### Main Colors
+- **Petroleum**: `#0f172a` (dark-petroleum)
+- **Light Petroleum**: `#1e293b` (light-petroleum)
+- **Accent Red**: `#ef4444` (accent-red-500)
+- **White**: `#ffffff`
 
-### Tipografia
-- **Fonte**: Inter (Google Fonts)
-- **Estilo**: Uppercase com letter-spacing
-- **Gradientes**: Branco para azul, vermelho para rosa
+### Glass Morphism Classes
+- `.glass` - Basic glass effect
+- `.glass-strong` - Intensified glass effect
+- `.glass-red` - Variation with red border
+- `.glass-button` - Buttons with glass effect
 
-## 📧 Sistema de Captura de Email
+### Typography
+- **Font**: Inter (Google Fonts)
+- **Style**: Uppercase with letter-spacing
+- **Gradients**: White to blue, red to pink
 
-O formulário de subscription possui:
-- ✅ Validação de email em tempo real
-- 🔄 Loading state durante envio
-- 🎉 Feedback visual com toast notifications
-- 💾 Reset automático após sucesso
+## 📧 Email Capture System
 
-## 🌟 Seções da Landing Page
+The subscription form features:
+- ✅ Real-time email validation
+- 🔄 Loading state during submission
+- 🎉 Visual feedback with toast notifications
+- 💾 Auto-reset after success
 
-### 1. Header Fixo
-- Logo animado
-- Status "EM BREVE"
-- Efeito glass morphism
+## 🌟 Landing Page Sections
+
+### 1. Fixed Header
+- Animated logo
+- "COMING SOON" status
+- Glass morphism effect
 
 ### 2. Hero Section
-- Título impactante em CAIXA ALTA
-- Badge de lançamento
-- Cards de recursos principais
-- Formulário de subscription centralizado
+- Impactful title in UPPERCASE
+- Launch badge
+- Main feature cards
+- Centered subscription form
 
-### 3. Recursos Detalhados
-- Grid responsivo de features
-- Ícones ilustrativos
-- Animações escalonadas
-- Benefícios por recurso
+### 3. Detailed Resources
+- Responsive features grid
+- Illustrative icons
+- Staggered animations
+- Benefits per feature
 
 ### 4. Demo Section
-- Player de vídeo placeholder
-- Call-to-action para demonstração
-- Elementos decorativos animados
+- Video placeholder player
+- Call-to-action for demo
+- Animated decorative elements
 
 ### 5. Footer
-- Logo e slogan
-- Copyright e links
+- Logo and slogan
+- Copyright and links
 
-## 🎭 Animações
+## 🎭 Animations
 
-### Tipos de Animação
-- **Fade In**: Entrada suave com opacidade
-- **Slide Up**: Subida com efeito Y
-- **Scale In**: Zoom de entrada
-- **Float**: Movimento flutuante contínuo
-- **Glow**: Brilho pulsante
+### Animation Types
+- **Fade In**: Smooth entry with opacity
+- **Slide Up**: Upward movement with Y effect
+- **Scale In**: Zoom entry
+- **Float**: Continuous floating movement
+- **Glow**: Pulsing glow
 
-### Delays Escalonados
-- Animações sequenciais para melhor UX
-- Delays de 0.1s a 0.5s entre elementos
-- Viewport triggers para performance
-
-## 🔧 Customização
-
-### Modificar Cores
-Edite `tailwind.config.js`:
-```javascript
-colors: {
-  petroleum: { /* suas cores */ },
-  'accent-red': { /* suas cores */ }
-}
-```
-
-### Adicionar Animações
-Em `src/index.css`:
-```css
-@keyframes suaAnimacao {
-  /* keyframes */
-}
-```
-
-### Modificar Conteúdo
-Edite `src/components/LandingPage.jsx`:
-- Textos nas seções
-- Features e benefícios
-- Links e CTAs
-
-## 📱 Responsividade
-
-### Breakpoints
-- **Mobile**: < 640px
-- **Tablet**: 640px - 1024px
-- **Desktop**: > 1024px
-
-### Otimizações Mobile
-- Tamanhos de fonte reduzidos
-- Padding e margins ajustados
-- Grid columns responsivos
-- Touch-friendly buttons
-
-## 🚀 Deploy
-
-### Netlify
-```bash
-npm run build
-# Upload da pasta build/
-```
-
-### Vercel
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-### GitHub Pages
-```bash
-npm install --save-dev gh-pages
-npm run build
-npx gh-pages -d build
-```
-
-## 📊 Performance
-
-### Otimizações Incluídas
-- ⚡ Code splitting automático
-- 🖼️ Lazy loading de imagens
-- 📦 Bundle size otimizado
-- 🎯 Preconnect para Google Fonts
-- 💾 Cache headers configurados
-
-### Métricas Esperadas
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
-- **First Input Delay**: < 100ms
-
-## 🐛 Troubleshooting
-
-### Erro de Dependências
-```bash
-rm -rf node_modules package-lock.json
-npm install
-```
-
-### Problema com Tailwind
-```bash
-npm run build
-# Verifique se todas as classes estão no content path
-```
-
-### Animações Não Funcionam
-- Verifique se `framer-motion` está instalado
-- Confirme imports dos componentes Motion
-
-## 📄 Licença
-
-Este projeto está sob licença MIT.
-
----
-
-**🔥 MARK-CUT - O FUTURO DO CORTE DE VÍDEO ESTÁ CHEGANDO!** 
+### Staggered Delays
+- Sequential animations for better UX
+- Delayed entry for elements
